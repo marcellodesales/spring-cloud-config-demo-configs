@@ -3,6 +3,8 @@ info:
   description: API Gateway for the Micro-services  
   version: 1.0.0
 
+demo1:
+
 zuul:
   routes:
     demo1:
