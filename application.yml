@@ -1,2 +1,26 @@
 application:
   description: Spring Cloud Apps Demos
+
+# Spring application
+spring:
+  boot:
+    admin:
+      url: http://localhost:8181
+
+# Assign an available/random port to the app
+server:
+  port: 0
+
+# Setup the eureka discovery service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+# Actuator Endpoints
+# https://github.com/spring-projects/spring-boot/issues/7637#issuecomment-269494340
+management:
+  security:
+    enabled: false
