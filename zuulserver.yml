@@ -1,3 +1,8 @@
+info:
+  name: The Zuul API Gateway
+  description: Handles all the API calls to servers using Feign Clients or Hystrix  
+  version: 1.0.0
+
 zuul:
   routes:
     demo1:
