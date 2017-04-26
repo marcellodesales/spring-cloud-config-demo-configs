@@ -3,9 +3,6 @@ info:
   description: Handles all the API calls to servers using Feign Clients or Hystrix  
   version: 1.0.0
 
-demo1:
-demo2:
-
 zuul:
   routes:
     demo1:
