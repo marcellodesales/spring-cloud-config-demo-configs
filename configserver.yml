@@ -2,7 +2,7 @@ info:
   description: Spring Cloud Config Service for Demos
 
 server:
-  port: 8888
+  port: 9999
 
 spring:
   mvc:
