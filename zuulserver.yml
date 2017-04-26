@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    demo1:
+      serviceId: demo1
+      path: /api/**
+    demo2:
+      serviceId: demo2
+      path: path: /api/**
