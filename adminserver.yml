@@ -4,3 +4,7 @@ server:
 management:
   security:
     enabled: false
+
+info:
+  name: SpringBoot Apps Admin
+  description: Manages SpringBoot apps using the Actuator endpoints
