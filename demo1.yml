@@ -1,2 +1,11 @@
 application:
   description: The Demo 1 Application
+
+# /info Actuator endpoint data
+info:
+  description: ${application.description}
+  version: "1.0.0"
+
+# Assign an available/random port to the app
+server:
+  port: 0
