@@ -7,10 +7,6 @@ spring:
     admin:
       url: http://localhost:8181
 
-# Assign an available/random port to the app
-server:
-  port: 0
-
 # Setup the eureka discovery service
 eureka:
   client:
