@@ -1,6 +1,6 @@
 info:
   name: The Zuul API Gateway
-  description: Handles all the API calls to servers using Feign Clients or Hystrix  
+  description: API Gateway for the Micro-services  
   version: 1.0.0
 
 zuul:
