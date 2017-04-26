@@ -7,10 +7,7 @@ zuul:
   routes:
     demo1:
       serviceId: demo1
-      path: /api/${zuul.routes.demo1.serviceId}/**
-    demo2:
-      serviceId: demo2
-      path: /api/${zuul.routes.demo2.serviceId}/**
+      path: /api/**
 
 server:
   port: 8765
