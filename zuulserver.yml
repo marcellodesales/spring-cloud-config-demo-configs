@@ -5,7 +5,7 @@ zuul:
       path: /api/**
     demo2:
       serviceId: demo2
-      path: path: /api/**
+      path: /api/**
 
 server:
   port: 8765
