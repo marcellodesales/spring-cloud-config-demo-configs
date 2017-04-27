@@ -5,8 +5,3 @@ application:
 info:
   description: ${application.description}
   version: "1.0.0"
-
-# Does NOT work with Zuul Servers and 
-# Assign an available/random port to the app
-server:
-  port: 9002
