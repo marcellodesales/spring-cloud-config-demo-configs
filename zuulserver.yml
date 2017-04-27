@@ -12,5 +12,12 @@ zuul:
       serviceId: demo2
       path: /api/demo2/**
 
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
+    web:
+      skipPattern: (^cleanup.*|.+favicon.*)
+
 server:
   port: 8765
