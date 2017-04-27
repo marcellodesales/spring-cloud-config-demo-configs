@@ -8,4 +8,4 @@ info:
 
 # Assign an available/random port to the app
 server:
-  port: 0
+  port: ${server.port:0}
