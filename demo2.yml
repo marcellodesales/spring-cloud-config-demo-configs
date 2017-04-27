@@ -9,4 +9,4 @@ info:
 # Does NOT work with Zuul Servers and 
 # Assign an available/random port to the app
 server:
-  port: 0
+  port: 9002
