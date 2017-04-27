@@ -3,5 +3,11 @@ info:
   description: Routing from Applications
   version: 1.0.0
 
+zipkin:
+  web:
+    port: 9412
+    query:
+      dest: 0.0.0.0:9411
+
 server:
   port: 9411
