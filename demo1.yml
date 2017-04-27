@@ -5,6 +5,3 @@ application:
 info:
   description: ${application.description}
   version: "1.0.0"
-
-server:
-  port: 9001
