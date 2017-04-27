@@ -5,7 +5,3 @@ application:
 info:
   description: ${application.description}
   version: "1.0.0"
-
-# Assign an available/random port to the app
-server:
-  port: ${server.port:0}
