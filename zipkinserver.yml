@@ -1,0 +1,7 @@
+info:
+  name: Spring Cloud Sleuth Stream Zipkin Collector
+  description: Routing from Applications
+  version: 1.0.0
+
+server:
+  port: 9411
