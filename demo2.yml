@@ -7,5 +7,5 @@ info:
   version: "1.0.0"
 
 # Assign an available/random port to the app
-server:
-  port: 0
+#server:
+#  port: 0
