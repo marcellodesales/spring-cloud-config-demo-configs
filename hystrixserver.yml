@@ -1,0 +1,7 @@
+info:
+  name: The Hystrix Dashboard
+  description: The circuit breaker monitor for apps
+  version: 1.0.0
+
+server:
+  port: 9000
