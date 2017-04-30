@@ -2,3 +2,8 @@ info:
   name: The Hystrix Dashboard
   description: The circuit breaker monitor for apps
   version: 1.0.0
+
+# Setting the port number does not work for the dashboard
+# The app tries to boot 2 servers with the given port
+#server:
+#  port: 12333
