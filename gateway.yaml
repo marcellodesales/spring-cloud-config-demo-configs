@@ -1,1 +1,7 @@
-
+sony:
+  platform:
+    api:
+      version: v1
+    payment:
+      type: "visa"
+      region: "us-west-2"
