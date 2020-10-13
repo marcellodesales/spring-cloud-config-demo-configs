@@ -5,3 +5,8 @@ sony:
     payment:
       type: "visa"
       region: "us-west-2"
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
