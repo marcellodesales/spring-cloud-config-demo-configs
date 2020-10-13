@@ -11,3 +11,10 @@ logging:
   level:
     org:
       springframework: DEBUG
+
+# Actuators... we need /actuator/refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
