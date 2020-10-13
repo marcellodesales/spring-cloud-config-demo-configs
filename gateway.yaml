@@ -2,10 +2,11 @@ sony:
   platform:
     api:
       version: v1
-    gateway:
-      payment:
+    payment:
+      gateway:
         type: "visa"
         region: "us-west-2"
+
 
 logging:
   level:
