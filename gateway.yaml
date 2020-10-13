@@ -4,7 +4,7 @@ sony:
       version: v1
     payment:
       gateway:
-        type: "visa"
+        type: "discover"
         region: "us-west-2"
 
 
